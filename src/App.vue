@@ -40,22 +40,12 @@ const logout = () => {
           </li>
           <li class="nav-item">
             <router-link
-              to="/todo"
+              to="/todolist"
               class="nav-link"
               exact-active-class="active"
               aria-current="page"
             >
               Todo
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link
-              to="/users"
-              class="nav-link"
-              exact-active-class="active"
-              aria-current="page"
-            >
-              Users
             </router-link>
           </li>
           <li class="nav-item" v-if="!auth.loggedIn">
